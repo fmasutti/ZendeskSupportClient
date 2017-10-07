@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E5EAEBF1F88FCCD0076E6A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5EAEBE1F88FCCD0076E6A0 /* AppDelegate.swift */; };
+		6E5EAEC11F88FCCD0076E6A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5EAEC01F88FCCD0076E6A0 /* ViewController.swift */; };
+		6E5EAEC41F88FCCD0076E6A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E5EAEC21F88FCCD0076E6A0 /* Main.storyboard */; };
+		6E5EAEC61F88FCCD0076E6A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E5EAEC51F88FCCD0076E6A0 /* Assets.xcassets */; };
+		6E5EAEC91F88FCCD0076E6A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E5EAEC71F88FCCD0076E6A0 /* LaunchScreen.storyboard */; };
+		6E5EAED41F88FCCD0076E6A0 /* ZedeskSupportClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5EAED31F88FCCD0076E6A0 /* ZedeskSupportClientTests.swift */; };
+		6E5EAEDF1F88FCCD0076E6A0 /* ZedeskSupportClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5EAEDE1F88FCCD0076E6A0 /* ZedeskSupportClientUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E5EAED01F88FCCD0076E6A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E5EAEB31F88FCCD0076E6A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E5EAEBA1F88FCCD0076E6A0;
+			remoteInfo = ZedeskSupportClient;
+		};
+		6E5EAEDB1F88FCCD0076E6A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E5EAEB31F88FCCD0076E6A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E5EAEBA1F88FCCD0076E6A0;
+			remoteInfo = ZedeskSupportClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E5EAEBB1F88FCCD0076E6A0 /* ZedeskSupportClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZedeskSupportClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E5EAEBE1F88FCCD0076E6A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E5EAEC01F88FCCD0076E6A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6E5EAEC31F88FCCD0076E6A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E5EAEC51F88FCCD0076E6A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E5EAEC81F88FCCD0076E6A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E5EAECA1F88FCCD0076E6A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E5EAECF1F88FCCD0076E6A0 /* ZedeskSupportClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZedeskSupportClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E5EAED31F88FCCD0076E6A0 /* ZedeskSupportClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZedeskSupportClientTests.swift; sourceTree = "<group>"; };
+		6E5EAED51F88FCCD0076E6A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E5EAEDA1F88FCCD0076E6A0 /* ZedeskSupportClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZedeskSupportClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E5EAEDE1F88FCCD0076E6A0 /* ZedeskSupportClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZedeskSupportClientUITests.swift; sourceTree = "<group>"; };
+		6E5EAEE01F88FCCD0076E6A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E5EAEB81F88FCCD0076E6A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5EAECC1F88FCCD0076E6A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5EAED71F88FCCD0076E6A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E5EAEB21F88FCCD0076E6A0 = {
+			isa = PBXGroup;
+			children = (
+				6E5EAEBD1F88FCCD0076E6A0 /* ZedeskSupportClient */,
+				6E5EAED21F88FCCD0076E6A0 /* ZedeskSupportClientTests */,
+				6E5EAEDD1F88FCCD0076E6A0 /* ZedeskSupportClientUITests */,
+				6E5EAEBC1F88FCCD0076E6A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E5EAEBC1F88FCCD0076E6A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E5EAEBB1F88FCCD0076E6A0 /* ZedeskSupportClient.app */,
+				6E5EAECF1F88FCCD0076E6A0 /* ZedeskSupportClientTests.xctest */,
+				6E5EAEDA1F88FCCD0076E6A0 /* ZedeskSupportClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E5EAEBD1F88FCCD0076E6A0 /* ZedeskSupportClient */ = {
+			isa = PBXGroup;
+			children = (
+				6E5EAEBE1F88FCCD0076E6A0 /* AppDelegate.swift */,
+				6E5EAEC01F88FCCD0076E6A0 /* ViewController.swift */,
+				6E5EAEC21F88FCCD0076E6A0 /* Main.storyboard */,
+				6E5EAEC51F88FCCD0076E6A0 /* Assets.xcassets */,
+				6E5EAEC71F88FCCD0076E6A0 /* LaunchScreen.storyboard */,
+				6E5EAECA1F88FCCD0076E6A0 /* Info.plist */,
+			);
+			path = ZedeskSupportClient;
+			sourceTree = "<group>";
+		};
+		6E5EAED21F88FCCD0076E6A0 /* ZedeskSupportClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E5EAED31F88FCCD0076E6A0 /* ZedeskSupportClientTests.swift */,
+				6E5EAED51F88FCCD0076E6A0 /* Info.plist */,
+			);
+			path = ZedeskSupportClientTests;
+			sourceTree = "<group>";
+		};
+		6E5EAEDD1F88FCCD0076E6A0 /* ZedeskSupportClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E5EAEDE1F88FCCD0076E6A0 /* ZedeskSupportClientUITests.swift */,
+				6E5EAEE01F88FCCD0076E6A0 /* Info.plist */,
+			);
+			path = ZedeskSupportClientUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E5EAEBA1F88FCCD0076E6A0 /* ZedeskSupportClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E5EAEE31F88FCCD0076E6A0 /* Build configuration list for PBXNativeTarget "ZedeskSupportClient" */;
+			buildPhases = (
+				6E5EAEB71F88FCCD0076E6A0 /* Sources */,
+				6E5EAEB81F88FCCD0076E6A0 /* Frameworks */,
+				6E5EAEB91F88FCCD0076E6A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZedeskSupportClient;
+			productName = ZedeskSupportClient;
+			productReference = 6E5EAEBB1F88FCCD0076E6A0 /* ZedeskSupportClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E5EAECE1F88FCCD0076E6A0 /* ZedeskSupportClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E5EAEE61F88FCCD0076E6A0 /* Build configuration list for PBXNativeTarget "ZedeskSupportClientTests" */;
+			buildPhases = (
+				6E5EAECB1F88FCCD0076E6A0 /* Sources */,
+				6E5EAECC1F88FCCD0076E6A0 /* Frameworks */,
+				6E5EAECD1F88FCCD0076E6A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E5EAED11F88FCCD0076E6A0 /* PBXTargetDependency */,
+			);
+			name = ZedeskSupportClientTests;
+			productName = ZedeskSupportClientTests;
+			productReference = 6E5EAECF1F88FCCD0076E6A0 /* ZedeskSupportClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E5EAED91F88FCCD0076E6A0 /* ZedeskSupportClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E5EAEE91F88FCCD0076E6A0 /* Build configuration list for PBXNativeTarget "ZedeskSupportClientUITests" */;
+			buildPhases = (
+				6E5EAED61F88FCCD0076E6A0 /* Sources */,
+				6E5EAED71F88FCCD0076E6A0 /* Frameworks */,
+				6E5EAED81F88FCCD0076E6A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E5EAEDC1F88FCCD0076E6A0 /* PBXTargetDependency */,
+			);
+			name = ZedeskSupportClientUITests;
+			productName = ZedeskSupportClientUITests;
+			productReference = 6E5EAEDA1F88FCCD0076E6A0 /* ZedeskSupportClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E5EAEB31F88FCCD0076E6A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Frantiesco Masutti";
+				TargetAttributes = {
+					6E5EAEBA1F88FCCD0076E6A0 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					6E5EAECE1F88FCCD0076E6A0 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6E5EAEBA1F88FCCD0076E6A0;
+					};
+					6E5EAED91F88FCCD0076E6A0 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6E5EAEBA1F88FCCD0076E6A0;
+					};
+				};
+			};
+			buildConfigurationList = 6E5EAEB61F88FCCD0076E6A0 /* Build configuration list for PBXProject "ZedeskSupportClient" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E5EAEB21F88FCCD0076E6A0;
+			productRefGroup = 6E5EAEBC1F88FCCD0076E6A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E5EAEBA1F88FCCD0076E6A0 /* ZedeskSupportClient */,
+				6E5EAECE1F88FCCD0076E6A0 /* ZedeskSupportClientTests */,
+				6E5EAED91F88FCCD0076E6A0 /* ZedeskSupportClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E5EAEB91F88FCCD0076E6A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5EAEC91F88FCCD0076E6A0 /* LaunchScreen.storyboard in Resources */,
+				6E5EAEC61F88FCCD0076E6A0 /* Assets.xcassets in Resources */,
+				6E5EAEC41F88FCCD0076E6A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5EAECD1F88FCCD0076E6A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5EAED81F88FCCD0076E6A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E5EAEB71F88FCCD0076E6A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5EAEC11F88FCCD0076E6A0 /* ViewController.swift in Sources */,
+				6E5EAEBF1F88FCCD0076E6A0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5EAECB1F88FCCD0076E6A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5EAED41F88FCCD0076E6A0 /* ZedeskSupportClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5EAED61F88FCCD0076E6A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5EAEDF1F88FCCD0076E6A0 /* ZedeskSupportClientUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E5EAED11F88FCCD0076E6A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E5EAEBA1F88FCCD0076E6A0 /* ZedeskSupportClient */;
+			targetProxy = 6E5EAED01F88FCCD0076E6A0 /* PBXContainerItemProxy */;
+		};
+		6E5EAEDC1F88FCCD0076E6A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E5EAEBA1F88FCCD0076E6A0 /* ZedeskSupportClient */;
+			targetProxy = 6E5EAEDB1F88FCCD0076E6A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E5EAEC21F88FCCD0076E6A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E5EAEC31F88FCCD0076E6A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E5EAEC71F88FCCD0076E6A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E5EAEC81F88FCCD0076E6A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E5EAEE11F88FCCD0076E6A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E5EAEE21F88FCCD0076E6A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E5EAEE41F88FCCD0076E6A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V89KTJ3L55;
+				INFOPLIST_FILE = ZedeskSupportClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coldmass.ZedeskSupportClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E5EAEE51F88FCCD0076E6A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V89KTJ3L55;
+				INFOPLIST_FILE = ZedeskSupportClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coldmass.ZedeskSupportClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E5EAEE71F88FCCD0076E6A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V89KTJ3L55;
+				INFOPLIST_FILE = ZedeskSupportClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coldmass.ZedeskSupportClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZedeskSupportClient.app/ZedeskSupportClient";
+			};
+			name = Debug;
+		};
+		6E5EAEE81F88FCCD0076E6A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V89KTJ3L55;
+				INFOPLIST_FILE = ZedeskSupportClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coldmass.ZedeskSupportClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZedeskSupportClient.app/ZedeskSupportClient";
+			};
+			name = Release;
+		};
+		6E5EAEEA1F88FCCD0076E6A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V89KTJ3L55;
+				INFOPLIST_FILE = ZedeskSupportClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coldmass.ZedeskSupportClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZedeskSupportClient;
+			};
+			name = Debug;
+		};
+		6E5EAEEB1F88FCCD0076E6A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V89KTJ3L55;
+				INFOPLIST_FILE = ZedeskSupportClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coldmass.ZedeskSupportClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZedeskSupportClient;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E5EAEB61F88FCCD0076E6A0 /* Build configuration list for PBXProject "ZedeskSupportClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E5EAEE11F88FCCD0076E6A0 /* Debug */,
+				6E5EAEE21F88FCCD0076E6A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E5EAEE31F88FCCD0076E6A0 /* Build configuration list for PBXNativeTarget "ZedeskSupportClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E5EAEE41F88FCCD0076E6A0 /* Debug */,
+				6E5EAEE51F88FCCD0076E6A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E5EAEE61F88FCCD0076E6A0 /* Build configuration list for PBXNativeTarget "ZedeskSupportClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E5EAEE71F88FCCD0076E6A0 /* Debug */,
+				6E5EAEE81F88FCCD0076E6A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E5EAEE91F88FCCD0076E6A0 /* Build configuration list for PBXNativeTarget "ZedeskSupportClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E5EAEEA1F88FCCD0076E6A0 /* Debug */,
+				6E5EAEEB1F88FCCD0076E6A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E5EAEB31F88FCCD0076E6A0 /* Project object */;
+}
