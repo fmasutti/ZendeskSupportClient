@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '11.0'
+
+target 'ZedeskSupportClient' do
+  use_frameworks!
+  pod 'Alamofire', '~> 4.5'
+
+# Pods for ZedeskSupportClient
+
+target 'ZedeskSupportClientTests' do
+  inherit! :search_paths
+  # Pods for testing
+end
+
+target 'ZedeskSupportClientUITests' do
+  inherit! :search_paths
+  # Pods for testing
+end
+
+end

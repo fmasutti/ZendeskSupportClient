@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1399A9B2172FC258B8BFBD29 /* Pods_ZedeskSupportClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3376875B694ED57C9F594A32 /* Pods_ZedeskSupportClient.framework */; };
+		18ECD5E2F363DB385C135323 /* Pods_ZedeskSupportClientUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCEBA5E3D13C4C4CC27505A7 /* Pods_ZedeskSupportClientUITests.framework */; };
 		6E5EAEBF1F88FCCD0076E6A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5EAEBE1F88FCCD0076E6A0 /* AppDelegate.swift */; };
 		6E5EAEC11F88FCCD0076E6A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5EAEC01F88FCCD0076E6A0 /* ViewController.swift */; };
 		6E5EAEC41F88FCCD0076E6A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E5EAEC21F88FCCD0076E6A0 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		6E5EAEC91F88FCCD0076E6A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E5EAEC71F88FCCD0076E6A0 /* LaunchScreen.storyboard */; };
 		6E5EAED41F88FCCD0076E6A0 /* ZedeskSupportClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5EAED31F88FCCD0076E6A0 /* ZedeskSupportClientTests.swift */; };
 		6E5EAEDF1F88FCCD0076E6A0 /* ZedeskSupportClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5EAEDE1F88FCCD0076E6A0 /* ZedeskSupportClientUITests.swift */; };
+		8BC06ACBAF1D4AC55D045285 /* Pods_ZedeskSupportClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7044780F408323263B84EFB7 /* Pods_ZedeskSupportClientTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00E85D9C96EE3079F52D65BE /* Pods-ZedeskSupportClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZedeskSupportClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZedeskSupportClient/Pods-ZedeskSupportClient.debug.xcconfig"; sourceTree = "<group>"; };
+		1160E3608E15D297BDCEB266 /* Pods-ZedeskSupportClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZedeskSupportClientTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZedeskSupportClientTests/Pods-ZedeskSupportClientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3376875B694ED57C9F594A32 /* Pods_ZedeskSupportClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZedeskSupportClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CC18BE3AB78F7B8B6895F5F /* Pods-ZedeskSupportClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZedeskSupportClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZedeskSupportClient/Pods-ZedeskSupportClient.release.xcconfig"; sourceTree = "<group>"; };
 		6E5EAEBB1F88FCCD0076E6A0 /* ZedeskSupportClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZedeskSupportClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E5EAEBE1F88FCCD0076E6A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E5EAEC01F88FCCD0076E6A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,11 @@
 		6E5EAEDA1F88FCCD0076E6A0 /* ZedeskSupportClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZedeskSupportClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E5EAEDE1F88FCCD0076E6A0 /* ZedeskSupportClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZedeskSupportClientUITests.swift; sourceTree = "<group>"; };
 		6E5EAEE01F88FCCD0076E6A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7044780F408323263B84EFB7 /* Pods_ZedeskSupportClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZedeskSupportClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D76FB86B6238CFB90712866 /* Pods-ZedeskSupportClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZedeskSupportClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZedeskSupportClientTests/Pods-ZedeskSupportClientTests.release.xcconfig"; sourceTree = "<group>"; };
+		BD925F955C32A495AC500F53 /* Pods-ZedeskSupportClientUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZedeskSupportClientUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZedeskSupportClientUITests/Pods-ZedeskSupportClientUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CCEBA5E3D13C4C4CC27505A7 /* Pods_ZedeskSupportClientUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZedeskSupportClientUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6AA27032DE1229FF40F3E4A /* Pods-ZedeskSupportClientUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZedeskSupportClientUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZedeskSupportClientUITests/Pods-ZedeskSupportClientUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1399A9B2172FC258B8BFBD29 /* Pods_ZedeskSupportClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BC06ACBAF1D4AC55D045285 /* Pods_ZedeskSupportClientTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18ECD5E2F363DB385C135323 /* Pods_ZedeskSupportClientUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				6E5EAED21F88FCCD0076E6A0 /* ZedeskSupportClientTests */,
 				6E5EAEDD1F88FCCD0076E6A0 /* ZedeskSupportClientUITests */,
 				6E5EAEBC1F88FCCD0076E6A0 /* Products */,
+				8CC38F71AB0BFF1A6DE0212F /* Pods */,
+				84F82B15DA5A35AB1ED87CCD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = ZedeskSupportClientUITests;
 			sourceTree = "<group>";
 		};
+		84F82B15DA5A35AB1ED87CCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3376875B694ED57C9F594A32 /* Pods_ZedeskSupportClient.framework */,
+				7044780F408323263B84EFB7 /* Pods_ZedeskSupportClientTests.framework */,
+				CCEBA5E3D13C4C4CC27505A7 /* Pods_ZedeskSupportClientUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CC38F71AB0BFF1A6DE0212F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00E85D9C96EE3079F52D65BE /* Pods-ZedeskSupportClient.debug.xcconfig */,
+				4CC18BE3AB78F7B8B6895F5F /* Pods-ZedeskSupportClient.release.xcconfig */,
+				1160E3608E15D297BDCEB266 /* Pods-ZedeskSupportClientTests.debug.xcconfig */,
+				7D76FB86B6238CFB90712866 /* Pods-ZedeskSupportClientTests.release.xcconfig */,
+				F6AA27032DE1229FF40F3E4A /* Pods-ZedeskSupportClientUITests.debug.xcconfig */,
+				BD925F955C32A495AC500F53 /* Pods-ZedeskSupportClientUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E5EAEE31F88FCCD0076E6A0 /* Build configuration list for PBXNativeTarget "ZedeskSupportClient" */;
 			buildPhases = (
+				6C268B837AEB0A3CBFA85E8E /* [CP] Check Pods Manifest.lock */,
 				6E5EAEB71F88FCCD0076E6A0 /* Sources */,
 				6E5EAEB81F88FCCD0076E6A0 /* Frameworks */,
 				6E5EAEB91F88FCCD0076E6A0 /* Resources */,
+				FBC5EAFBCF41B2BC3B2E43EE /* [CP] Embed Pods Frameworks */,
+				C2C90DE3B3B88C643F77A459 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E5EAEE61F88FCCD0076E6A0 /* Build configuration list for PBXNativeTarget "ZedeskSupportClientTests" */;
 			buildPhases = (
+				86A807B25FE277CFEAA20C59 /* [CP] Check Pods Manifest.lock */,
 				6E5EAECB1F88FCCD0076E6A0 /* Sources */,
 				6E5EAECC1F88FCCD0076E6A0 /* Frameworks */,
 				6E5EAECD1F88FCCD0076E6A0 /* Resources */,
+				0B1B60D07D90753D7077558C /* [CP] Embed Pods Frameworks */,
+				7FC02403B299C795F24EDAE5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E5EAEE91F88FCCD0076E6A0 /* Build configuration list for PBXNativeTarget "ZedeskSupportClientUITests" */;
 			buildPhases = (
+				03A1717ADC7815B0EE5C45C8 /* [CP] Check Pods Manifest.lock */,
 				6E5EAED61F88FCCD0076E6A0 /* Sources */,
 				6E5EAED71F88FCCD0076E6A0 /* Frameworks */,
 				6E5EAED81F88FCCD0076E6A0 /* Resources */,
+				AA80148AD1CD64B5B32FC777 /* [CP] Embed Pods Frameworks */,
+				DE21DCB4BFC4BC6055E17F7D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03A1717ADC7815B0EE5C45C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZedeskSupportClientUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0B1B60D07D90753D7077558C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZedeskSupportClientTests/Pods-ZedeskSupportClientTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C268B837AEB0A3CBFA85E8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZedeskSupportClient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FC02403B299C795F24EDAE5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZedeskSupportClientTests/Pods-ZedeskSupportClientTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86A807B25FE277CFEAA20C59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZedeskSupportClientTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA80148AD1CD64B5B32FC777 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZedeskSupportClientUITests/Pods-ZedeskSupportClientUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2C90DE3B3B88C643F77A459 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZedeskSupportClient/Pods-ZedeskSupportClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE21DCB4BFC4BC6055E17F7D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZedeskSupportClientUITests/Pods-ZedeskSupportClientUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBC5EAFBCF41B2BC3B2E43EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZedeskSupportClient/Pods-ZedeskSupportClient-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZedeskSupportClient/Pods-ZedeskSupportClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6E5EAEB71F88FCCD0076E6A0 /* Sources */ = {
@@ -424,6 +623,7 @@
 		};
 		6E5EAEE41F88FCCD0076E6A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00E85D9C96EE3079F52D65BE /* Pods-ZedeskSupportClient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +639,7 @@
 		};
 		6E5EAEE51F88FCCD0076E6A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CC18BE3AB78F7B8B6895F5F /* Pods-ZedeskSupportClient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +655,7 @@
 		};
 		6E5EAEE71F88FCCD0076E6A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1160E3608E15D297BDCEB266 /* Pods-ZedeskSupportClientTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +673,7 @@
 		};
 		6E5EAEE81F88FCCD0076E6A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D76FB86B6238CFB90712866 /* Pods-ZedeskSupportClientTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +691,7 @@
 		};
 		6E5EAEEA1F88FCCD0076E6A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6AA27032DE1229FF40F3E4A /* Pods-ZedeskSupportClientUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +708,7 @@
 		};
 		6E5EAEEB1F88FCCD0076E6A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD925F955C32A495AC500F53 /* Pods-ZedeskSupportClientUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
