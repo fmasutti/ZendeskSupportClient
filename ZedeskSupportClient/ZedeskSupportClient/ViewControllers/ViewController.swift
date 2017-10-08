@@ -11,15 +11,15 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var ticketsTableView: UITableView!
+    var tickets: Tickets?
     var ticketsList = [TicketModel]();
     
     // MARK: View Cycle.
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         //Request data from ZendeskAPIManager.
-        ZendeskAPIManager.sharedInstance.getTickets(successBlock: { (tickets) in
-            self.ticketsList = tickets
+        ZendeskAPIManager.sharedInstance.getTickets(perPageTickets: nil, specificPageURL: nil, successBlock: { (tickets) in
+            self.ticketsList = tickets.tickets
             self.ticketsTableView.reloadData()
         }) { (error) in
             if let error = error {
@@ -27,7 +27,6 @@ class ViewController: UIViewController {
             }
         }
     }
-    
 }
 
 // UITableView extension for ViewController

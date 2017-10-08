@@ -14,8 +14,9 @@ struct TicketModel {
     public private(set) var description: String?
     var subject: String?
     var status: String?
-    
-    
+}
+
+extension TicketModel {
     /// - Parameters:
     ///   - jsonObject: NSDictionary with Ticket infos to popupale struct content.
     init(jsonObject:NSDictionary) {
