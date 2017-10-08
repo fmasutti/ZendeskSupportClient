@@ -1,6 +1,0 @@
-framework module Pods_ZedeskSupportClient {
-  umbrella header "Pods-ZedeskSupportClient-umbrella.h"
-
-  export *
-  module * { export * }
-}

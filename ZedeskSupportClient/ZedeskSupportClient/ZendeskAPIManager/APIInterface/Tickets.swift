@@ -23,6 +23,7 @@ extension Tickets {
                 tickets.append(TicketModel(jsonObject: ticketJsonDic))
             }
         }
+        
         if let previousPage = jsonObject["previous_page"] as? String {
             self.previousPage = previousPage
         }

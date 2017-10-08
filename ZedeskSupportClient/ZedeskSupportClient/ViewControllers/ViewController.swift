@@ -37,14 +37,17 @@ class ViewController: UIViewController {
                 return
             }
         }
-        
         ZendeskAPIManager.sharedInstance.getTickets(perPageTickets: self.perPageTickets, specificPageURL: self.tickets?.nextPage, successBlock: { (tickets) in
-            self.ticketsTableView.infiniteScrollingView?.stopAnimating()
             self.tickets = tickets
             self.ticketsList.append(contentsOf: tickets.tickets)
-            self.ticketsTableView.reloadData()
+            DispatchQueue.main.async {
+                self.ticketsTableView.infiniteScrollingView?.stopAnimating()
+                self.ticketsTableView.reloadData()
+            }
         }) { (error) in
-            self.ticketsTableView.infiniteScrollingView?.stopAnimating()
+            DispatchQueue.main.async {
+                self.ticketsTableView.infiniteScrollingView?.stopAnimating()
+            }
             if let error = error {
                 print(error)
             }
