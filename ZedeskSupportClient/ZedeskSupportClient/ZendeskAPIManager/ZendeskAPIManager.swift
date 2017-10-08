@@ -63,7 +63,6 @@ final class ZendeskAPIManager {
                 case .success:
                     if let jsonReturn = response.result.value as? [String:Any] {
                         let tickets = Tickets(jsonObject: jsonReturn)
-//                        let tickets = Tickets( Tickets(jsonObject: jsonReturn)
                         successBlock(tickets)
                     } else {
                         errorBlock(response.error)
