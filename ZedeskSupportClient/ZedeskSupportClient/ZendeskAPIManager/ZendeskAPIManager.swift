@@ -31,7 +31,7 @@ final class ZendeskAPIManager {
     }
     
     // MARK: - Get Methods
-    func getTickets(successBlock: @escaping (Any) -> (), errorBlock: @escaping (Error?) -> ()) {
+    func getTickets(successBlock: @escaping ([TicketModel]) -> (), errorBlock: @escaping (Error?) -> ()) {
         Alamofire.request("https://\(self.client.subdomain).zendesk.com/api/v2/views/\(self.client.clientId)/tickets.json",
             method: .get,
             parameters: nil,
@@ -39,10 +39,21 @@ final class ZendeskAPIManager {
             headers:self.defaultAuthorizationHeader())
             .validate()
             .responseJSON { response in
-                if let validJson = response.result.value {
-                    successBlock(validJson)
-                } else {
-                    errorBlock(response.error)
+                switch response.result {
+                case .success:
+                    if let jsonReturn = response.result.value as? NSDictionary {
+                        var tickets = [TicketModel]()
+                        if let ticketsJsonFormat = jsonReturn["tickets"] as? [NSDictionary] {
+                            for ticketJsonDic in ticketsJsonFormat {
+                                tickets.append(TicketModel(jsonObject: ticketJsonDic))
+                            }
+                        }
+                        successBlock(tickets)
+                    } else {
+                        errorBlock(response.error)
+                    }
+                case .failure(let error):
+                    errorBlock(error)
                 }
         }
     }

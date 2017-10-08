@@ -18,6 +18,7 @@
 		6E5EAEDF1F88FCCD0076E6A0 /* ZedeskSupportClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5EAEDE1F88FCCD0076E6A0 /* ZedeskSupportClientUITests.swift */; };
 		6EBBD88E1F8A10BA006123F2 /* ZendeskAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBBD88C1F8A10BA006123F2 /* ZendeskAPIManager.swift */; };
 		6EBBD88F1F8A10BA006123F2 /* ClientInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBBD88D1F8A10BA006123F2 /* ClientInfo.swift */; };
+		6EBBD8911F8A1470006123F2 /* TicketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBBD8901F8A1470006123F2 /* TicketModel.swift */; };
 		8BC06ACBAF1D4AC55D045285 /* Pods_ZedeskSupportClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7044780F408323263B84EFB7 /* Pods_ZedeskSupportClientTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		6E5EAEE01F88FCCD0076E6A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EBBD88C1F8A10BA006123F2 /* ZendeskAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZendeskAPIManager.swift; sourceTree = "<group>"; };
 		6EBBD88D1F8A10BA006123F2 /* ClientInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientInfo.swift; sourceTree = "<group>"; };
+		6EBBD8901F8A1470006123F2 /* TicketModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketModel.swift; sourceTree = "<group>"; };
 		7044780F408323263B84EFB7 /* Pods_ZedeskSupportClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZedeskSupportClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D76FB86B6238CFB90712866 /* Pods-ZedeskSupportClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZedeskSupportClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZedeskSupportClientTests/Pods-ZedeskSupportClientTests.release.xcconfig"; sourceTree = "<group>"; };
 		BD925F955C32A495AC500F53 /* Pods-ZedeskSupportClientUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZedeskSupportClientUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZedeskSupportClientUITests/Pods-ZedeskSupportClientUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 			children = (
 				6EBBD88D1F8A10BA006123F2 /* ClientInfo.swift */,
 				6EBBD88C1F8A10BA006123F2 /* ZendeskAPIManager.swift */,
+				6EBBD8901F8A1470006123F2 /* TicketModel.swift */,
 			);
 			path = ZendeskAPIManager;
 			sourceTree = "<group>";
@@ -475,6 +478,7 @@
 				6EBBD88E1F8A10BA006123F2 /* ZendeskAPIManager.swift in Sources */,
 				6E5EAEC11F88FCCD0076E6A0 /* ViewController.swift in Sources */,
 				6EBBD88F1F8A10BA006123F2 /* ClientInfo.swift in Sources */,
+				6EBBD8911F8A1470006123F2 /* TicketModel.swift in Sources */,
 				6E5EAEBF1F88FCCD0076E6A0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
