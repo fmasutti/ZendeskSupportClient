@@ -3,43 +3,56 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0A57BCACDBAA13286DCC3094D9134480 /* Pods-ZedeskSupportClientUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF552966F91B615730C559A35230DF4D /* Pods-ZedeskSupportClientUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87882A1F5A92C8138D54545E51D51E6F /* Timeline.swift */; };
-		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B44A27EFBB0DA84D738057B77F3413B1 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01C037B4034EDA3D7955BC5E4E9D9D6 /* TaskDelegate.swift */; };
-		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E230A0448B394DE26E688DAC8E6201E /* Request.swift */; };
-		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCBF1EED873F61C6D46CE37FA5C39D3 /* DispatchQueue+Alamofire.swift */; };
-		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B030D27CAC730C5EB0F22390645310 /* ServerTrustPolicy.swift */; };
+		0AA491D7F6889D37AD7A455AE12330A9 /* Pods-ZedeskSupportClient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84EB6D3B9EE43FF753FDBFE8221A5786 /* Pods-ZedeskSupportClient-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0624457E2270DC27F46E803810CE2522 /* Timeline.swift */; };
+		17042A82A6FCF42D09FB114AC94A2117 /* ICSPullToRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = C30EF474A6A0FB64220E517979245BCF /* ICSPullToRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 895BE53CB5E1DCE3CCE3119D69783E34 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DF5AFBECF5EF973B4BA5814CAC57D02 /* ICSPullToRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD61DE551D79BB9CC168510A5A485B82 /* ICSPullToRefresh-dummy.m */; };
+		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ECEA2F8DFAAF4D9100DE2384241DF6 /* TaskDelegate.swift */; };
+		368C49FFB87ADF1CA11E9C4A0F5FF53A /* ICSPullToRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794FD8954C75EC7D0D99BF7343D217A6 /* ICSPullToRefresh.swift */; };
+		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC370D5D1AB0C86076EA15A4B7A6EEA /* Request.swift */; };
+		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A1C9204D1A347AD7838BDDC6A518AB /* DispatchQueue+Alamofire.swift */; };
+		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264B051749231D6B6574D82A4516A8F9 /* ServerTrustPolicy.swift */; };
 		73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		79779D05A9A46897DDC8255DACB979BE /* Pods-ZedeskSupportClient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84EB6D3B9EE43FF753FDBFE8221A5786 /* Pods-ZedeskSupportClient-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195D73DD9EF275A3C56569E2B1CA8026 /* SessionDelegate.swift */; };
-		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D60BC9955B4F7FFA62D7440CB385C11 /* Result.swift */; };
-		88C1700FC31AC9C001F4BE77680CF51A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		8E7A7FA5F815CE524714ACCCAD91619D /* Pods-ZedeskSupportClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1AC6839B0CF693686EEEF91BE24AD7 /* Pods-ZedeskSupportClient-dummy.m */; };
+		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC330E3F07EE043DD81B9667DFBEDCB1 /* SessionDelegate.swift */; };
+		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBF2372BA827AA7D5E3A0C3A07741E2 /* Result.swift */; };
 		930FBF77CA59DE9F62B16B9ADA72CAA1 /* Pods-ZedeskSupportClientTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E42917207ABDC4F36A9D3108739F1482 /* Pods-ZedeskSupportClientTests-dummy.m */; };
-		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF006B0AD5765D1BFA8253C2DCBB126 /* AFError.swift */; };
-		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A8AA5F9EDED0A0BDDE7E830BF4AEE0 /* NetworkReachabilityManager.swift */; };
+		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF451ED26E6FF6D3FEBE2E4CCAD4E79A /* AFError.swift */; };
+		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3638E408C6D41AA6598F4AFF40EF1C /* NetworkReachabilityManager.swift */; };
 		A828C797787D140C37C27CDA2C6E851A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C1C119BCE81C53F76CAC2BE27C38E0 /* Alamofire-dummy.m */; };
-		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDAC6C1187C5467E576980E1062C8B /* SessionManager.swift */; };
-		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155538D91ACEEEDF82069ACF6C1A02E7 /* MultipartFormData.swift */; };
+		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 171D113FA8694B8E579EE717EE29DEA7 /* Alamofire-dummy.m */; };
+		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183D6F387E5709B0F68E5EB9B766760B /* SessionManager.swift */; };
+		AF73981A305D44041CEE2F0E682A4069 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B5B8345AA9D1929EA049D8CA0115DD3A /* ICSInfiniteScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD42837709D21E738326E5E04E0C82F8 /* ICSInfiniteScrolling.swift */; };
+		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5174D26D283F15A8C816C8CD03CA4860 /* MultipartFormData.swift */; };
+		B95704573F96131DD550B196A0DF244F /* ICSPullToRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD87A550A5B036FDC19129AEB86216E0 /* ICSPullToRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA9F3C570AA1FB71B769F3E76FA97441 /* Pods-ZedeskSupportClientTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DA696E0AF3F37AAA27F94D3CE1F570D /* Pods-ZedeskSupportClientTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B029DBC43E49A740F12B5E4D2E6DD452 /* Validation.swift */; };
-		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6639346628280A0D0FAD35196BF56108 /* ParameterEncoding.swift */; };
-		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F47F5C9CDB035C5AFADEBA5BF44F1C /* Response.swift */; };
+		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A38BC1AD4151623F580907631C0BAC /* Validation.swift */; };
+		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5B0657C7611AF67E37036541513102 /* ParameterEncoding.swift */; };
+		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8CD6133480DF1D7D75559CEE5B03D7 /* Response.swift */; };
+		CBBD2FE835ADB98F5CE82B5E9CE72BE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		D09BCBA90615FB4A6C8BA2F10D408D64 /* Pods-ZedeskSupportClientUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 706329431070404D576631BC2C4644C1 /* Pods-ZedeskSupportClientUITests-dummy.m */; };
 		E503AE0F94D4B9C1BF83EAFB089E0A21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A46F517F0AF7E85A16D723F6406896 /* Notifications.swift */; };
-		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F9510473F6FFD7AA66524DB16C2263 /* ResponseSerialization.swift */; };
-		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCB8C44DE758E906C0BCDA455937B85 /* Alamofire.swift */; };
+		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BD5D99EEB0BE121D936B1B0704C2D8 /* Notifications.swift */; };
+		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C585CB56C8E4D9E6246262686925832 /* ResponseSerialization.swift */; };
+		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7B3AF89094D1D166BCF9C7DC9BDF80 /* Alamofire.swift */; };
+		FCF9125EF002BFB7AA9A09533CD3A7D1 /* Pods-ZedeskSupportClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1AC6839B0CF693686EEEF91BE24AD7 /* Pods-ZedeskSupportClient-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		906201C14B904239BEB4F2B00C2F5F56 /* PBXContainerItemProxy */ = {
+		9D87AC13345C774303D39DF1D5D743C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88BC1A73F0CA1E9AD85C7646752A7A82;
+			remoteInfo = ICSPullToRefresh;
+		};
+		B6EE341E630E2DDA55D8E85018147BDF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -49,73 +62,83 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04F47F5C9CDB035C5AFADEBA5BF44F1C /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		0624457E2270DC27F46E803810CE2522 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		0B35873A9634EC507DC267B69B33724E /* Pods-ZedeskSupportClientUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZedeskSupportClientUITests-frameworks.sh"; sourceTree = "<group>"; };
 		0E8066A1543B5EE6D97EB239060C0609 /* Pods-ZedeskSupportClientUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZedeskSupportClientUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0F5D27D3BB221112F2C3149C35118E79 /* Pods-ZedeskSupportClientTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZedeskSupportClientTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0FCBF1EED873F61C6D46CE37FA5C39D3 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		104BF819A60CBDB7F429B679EC8A834E /* Pods-ZedeskSupportClient-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZedeskSupportClient-acknowledgements.plist"; sourceTree = "<group>"; };
-		13A0A663B36A229C69D5274A83E93F88 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		155538D91ACEEEDF82069ACF6C1A02E7 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		195D73DD9EF275A3C56569E2B1CA8026 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		171D113FA8694B8E579EE717EE29DEA7 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		183D6F387E5709B0F68E5EB9B766760B /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		1BBF2372BA827AA7D5E3A0C3A07741E2 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		1C585CB56C8E4D9E6246262686925832 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		1D89F8C6B09B998FCD03584C1FDC6742 /* Pods-ZedeskSupportClientTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZedeskSupportClientTests-frameworks.sh"; sourceTree = "<group>"; };
-		1E230A0448B394DE26E688DAC8E6201E /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		1E9E36EA311BABB9F1C87B7151B7E7C2 /* Pods-ZedeskSupportClient-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZedeskSupportClient-resources.sh"; sourceTree = "<group>"; };
 		1F7844487CC09B08CB1962F201AE3BDD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		22C1C119BCE81C53F76CAC2BE27C38E0 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		20ECEA2F8DFAAF4D9100DE2384241DF6 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		264B051749231D6B6574D82A4516A8F9 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		26F66110A065C35729790571AF86D829 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A3638E408C6D41AA6598F4AFF40EF1C /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		2C044B199A63C2C8A59A93142A9979B4 /* Pods-ZedeskSupportClientTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZedeskSupportClientTests-resources.sh"; sourceTree = "<group>"; };
-		320FA703377F1B7C5F891C00E3517E25 /* Pods_ZedeskSupportClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZedeskSupportClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		32B030D27CAC730C5EB0F22390645310 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		3597F34167F687225EFFC7C4AAC0B81D /* Pods_ZedeskSupportClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZedeskSupportClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3ABDC3D340E0404945FA12E0C1E9F80E /* Pods-ZedeskSupportClient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZedeskSupportClient.modulemap"; sourceTree = "<group>"; };
-		3D60BC9955B4F7FFA62D7440CB385C11 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		2FAB2DC5FA78CA34E012A279602B3E77 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		3ABDC3D340E0404945FA12E0C1E9F80E /* Pods-ZedeskSupportClient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZedeskSupportClient.modulemap"; sourceTree = "<group>"; };
 		3DA696E0AF3F37AAA27F94D3CE1F570D /* Pods-ZedeskSupportClientTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZedeskSupportClientTests-umbrella.h"; sourceTree = "<group>"; };
-		46CDAC6C1187C5467E576980E1062C8B /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
 		488626E8B2F70CA573FFCB676B80F5BA /* Pods-ZedeskSupportClientUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZedeskSupportClientUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4AF006B0AD5765D1BFA8253C2DCBB126 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		5174D26D283F15A8C816C8CD03CA4860 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		59606A9DE6944730344DA3395E5007AB /* Pods-ZedeskSupportClient-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZedeskSupportClient-frameworks.sh"; sourceTree = "<group>"; };
 		5B108EAAD43705DD98AB49780EB1A9F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		608BBA83BB9ED89FCE3EDC1938C355A7 /* Pods-ZedeskSupportClientUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZedeskSupportClientUITests-resources.sh"; sourceTree = "<group>"; };
-		63345E05A91D709EB80E964B7B496474 /* Pods-ZedeskSupportClientUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZedeskSupportClientUITests.modulemap"; sourceTree = "<group>"; };
+		63345E05A91D709EB80E964B7B496474 /* Pods-ZedeskSupportClientUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZedeskSupportClientUITests.modulemap"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6639346628280A0D0FAD35196BF56108 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		66A46F517F0AF7E85A16D723F6406896 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		67A1C9204D1A347AD7838BDDC6A518AB /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		6D8CD6133480DF1D7D75559CEE5B03D7 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
 		706329431070404D576631BC2C4644C1 /* Pods-ZedeskSupportClientUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZedeskSupportClientUITests-dummy.m"; sourceTree = "<group>"; };
+		741C0BE3C795F8A8A3CCBE7EAB7A999E /* Pods_ZedeskSupportClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZedeskSupportClient.framework; path = "Pods-ZedeskSupportClient.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7791F999D1E384B6CCF202F039096BBB /* Pods-ZedeskSupportClient-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZedeskSupportClient-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7D141D1953E5C6E67E362CE73090E48A /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		794FD8954C75EC7D0D99BF7343D217A6 /* ICSPullToRefresh.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ICSPullToRefresh.swift; path = ICSPullToRefresh/ICSPullToRefresh.swift; sourceTree = "<group>"; };
 		84EB6D3B9EE43FF753FDBFE8221A5786 /* Pods-ZedeskSupportClient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZedeskSupportClient-umbrella.h"; sourceTree = "<group>"; };
-		87882A1F5A92C8138D54545E51D51E6F /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
-		8B2321818B53C7F46DA6F9384B4912E7 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		895BE53CB5E1DCE3CCE3119D69783E34 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		8A3CCBA1BE14FF61F4650BCD9329EF4B /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C8C204318CC7B79487EEAC591DF43CE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8EF07E2D8CA63AB166F0ABC187A90CE2 /* Pods-ZedeskSupportClientTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZedeskSupportClientTests.modulemap"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8EF07E2D8CA63AB166F0ABC187A90CE2 /* Pods-ZedeskSupportClientTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZedeskSupportClientTests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9448110796C14863C7A4ADFDF153CC11 /* Pods-ZedeskSupportClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZedeskSupportClientTests.debug.xcconfig"; sourceTree = "<group>"; };
 		96B569183184875BB082D61DB1CBBED0 /* Pods-ZedeskSupportClientUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZedeskSupportClientUITests.release.xcconfig"; sourceTree = "<group>"; };
-		A01C037B4034EDA3D7955BC5E4E9D9D6 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
-		B029DBC43E49A740F12B5E4D2E6DD452 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		B44A27EFBB0DA84D738057B77F3413B1 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		98A38BC1AD4151623F580907631C0BAC /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		98E1CA818B723A66182CD89F89A532F6 /* ICSPullToRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ICSPullToRefresh.modulemap; sourceTree = "<group>"; };
+		AF451ED26E6FF6D3FEBE2E4CCAD4E79A /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		B371D41E79FB63D76D64BA1FA1F98618 /* ICSPullToRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ICSPullToRefresh-prefix.pch"; sourceTree = "<group>"; };
 		B72BB312BF53A5616C98F506BC5FCF6C /* Pods-ZedeskSupportClientUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZedeskSupportClientUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		BCCA9CA7D9C1A2047BB93336C5708DFD /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		BD1AC6839B0CF693686EEEF91BE24AD7 /* Pods-ZedeskSupportClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZedeskSupportClient-dummy.m"; sourceTree = "<group>"; };
+		BE24B900921DB2E612236920DAC43A48 /* Pods_ZedeskSupportClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZedeskSupportClientTests.framework; path = "Pods-ZedeskSupportClientTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C30EF474A6A0FB64220E517979245BCF /* ICSPullToRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICSPullToRefresh.h; path = ICSPullToRefresh/ICSPullToRefresh.h; sourceTree = "<group>"; };
+		C4CE6535B1D760D676A8F139A7C676B7 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		C5D69F830220D6AF56D7B1EA01BA5DA1 /* Pods-ZedeskSupportClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZedeskSupportClient.release.xcconfig"; sourceTree = "<group>"; };
 		CB0F5FE022251D6C7A048FCB73DA16F4 /* Pods-ZedeskSupportClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZedeskSupportClient.debug.xcconfig"; sourceTree = "<group>"; };
+		CB45BCC40E1F8AFCEF8F975C3FD7D2F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC7B3AF89094D1D166BCF9C7DC9BDF80 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		CE1FDD6CBB4359F6971021DF88BB1803 /* Pods-ZedeskSupportClientTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZedeskSupportClientTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DAF27E33703F94B3D6FD94F4BDE726B3 /* Pods_ZedeskSupportClientUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZedeskSupportClientUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2BD5D99EEB0BE121D936B1B0704C2D8 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		D6D326FF460F0BBBF431D0511E34B284 /* ICSPullToRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ICSPullToRefresh.framework; path = ICSPullToRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D422B3972114F9D4D5ECD22BC3AC2E /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		DC330E3F07EE043DD81B9667DFBEDCB1 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		DF552966F91B615730C559A35230DF4D /* Pods-ZedeskSupportClientUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZedeskSupportClientUITests-umbrella.h"; sourceTree = "<group>"; };
-		DFCB8C44DE758E906C0BCDA455937B85 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		E2F9510473F6FFD7AA66524DB16C2263 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		E42917207ABDC4F36A9D3108739F1482 /* Pods-ZedeskSupportClientTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZedeskSupportClientTests-dummy.m"; sourceTree = "<group>"; };
-		E5A8AA5F9EDED0A0BDDE7E830BF4AEE0 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		E6F34CCF86067ED508C12C676E298C69 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		E5668FB5BC24664058DC66E768FE05BB /* ICSPullToRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ICSPullToRefresh.xcconfig; sourceTree = "<group>"; };
+		EB5B0657C7611AF67E37036541513102 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		EE28C9886B91A5DD4C75DE7BC89BD179 /* Pods-ZedeskSupportClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZedeskSupportClientTests.release.xcconfig"; sourceTree = "<group>"; };
+		F41151D9DB0CF4973B07EEF94769C528 /* Pods_ZedeskSupportClientUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZedeskSupportClientUITests.framework; path = "Pods-ZedeskSupportClientUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC370D5D1AB0C86076EA15A4B7A6EEA /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		FD42837709D21E738326E5E04E0C82F8 /* ICSInfiniteScrolling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ICSInfiniteScrolling.swift; path = ICSPullToRefresh/ICSInfiniteScrolling.swift; sourceTree = "<group>"; };
+		FD61DE551D79BB9CC168510A5A485B82 /* ICSPullToRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ICSPullToRefresh-dummy.m"; sourceTree = "<group>"; };
+		FD87A550A5B036FDC19129AEB86216E0 /* ICSPullToRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ICSPullToRefresh-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		03B1C628B40390933F1ACD42A3FA978D /* Frameworks */ = {
+		6D8133BDE6689D2D05C00D3C8DC0A844 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88C1700FC31AC9C001F4BE77680CF51A /* Foundation.framework in Frameworks */,
+				AF73981A305D44041CEE2F0E682A4069 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,9 +166,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C64242B779D5AE05533C988CC4C923E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBBD2FE835ADB98F5CE82B5E9CE72BE5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1400461E90CC8DBBC19350A1F5003687 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81BD9C9618628ED1B3D96A8F57C6D0BD /* Alamofire */,
+				4C29B25C40645DF2F9AEA9702CCD0277 /* ICSPullToRefresh */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		178EFC7B192B800E79C42DDA4EAFB643 /* Pods-ZedeskSupportClientTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,39 +204,6 @@
 			path = "Target Support Files/Pods-ZedeskSupportClientTests";
 			sourceTree = "<group>";
 		};
-		200D10EB20F0397D47F022B50CF0433F /* Alamofire */ = {
-			isa = PBXGroup;
-			children = (
-				4AF006B0AD5765D1BFA8253C2DCBB126 /* AFError.swift */,
-				DFCB8C44DE758E906C0BCDA455937B85 /* Alamofire.swift */,
-				0FCBF1EED873F61C6D46CE37FA5C39D3 /* DispatchQueue+Alamofire.swift */,
-				155538D91ACEEEDF82069ACF6C1A02E7 /* MultipartFormData.swift */,
-				E5A8AA5F9EDED0A0BDDE7E830BF4AEE0 /* NetworkReachabilityManager.swift */,
-				66A46F517F0AF7E85A16D723F6406896 /* Notifications.swift */,
-				6639346628280A0D0FAD35196BF56108 /* ParameterEncoding.swift */,
-				1E230A0448B394DE26E688DAC8E6201E /* Request.swift */,
-				04F47F5C9CDB035C5AFADEBA5BF44F1C /* Response.swift */,
-				E2F9510473F6FFD7AA66524DB16C2263 /* ResponseSerialization.swift */,
-				3D60BC9955B4F7FFA62D7440CB385C11 /* Result.swift */,
-				32B030D27CAC730C5EB0F22390645310 /* ServerTrustPolicy.swift */,
-				195D73DD9EF275A3C56569E2B1CA8026 /* SessionDelegate.swift */,
-				46CDAC6C1187C5467E576980E1062C8B /* SessionManager.swift */,
-				A01C037B4034EDA3D7955BC5E4E9D9D6 /* TaskDelegate.swift */,
-				87882A1F5A92C8138D54545E51D51E6F /* Timeline.swift */,
-				B029DBC43E49A740F12B5E4D2E6DD452 /* Validation.swift */,
-				55F14F994FE7AB51F028BFE66CEF3106 /* Support Files */,
-			);
-			path = Alamofire;
-			sourceTree = "<group>";
-		};
-		35F128EB69B6F7FB7DA93BBF6C130FAE /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				200D10EB20F0397D47F022B50CF0433F /* Alamofire */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		45D773B80708F8A09058323E00BDE6A9 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,29 +214,30 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		55F14F994FE7AB51F028BFE66CEF3106 /* Support Files */ = {
+		4C29B25C40645DF2F9AEA9702CCD0277 /* ICSPullToRefresh */ = {
 			isa = PBXGroup;
 			children = (
-				7D141D1953E5C6E67E362CE73090E48A /* Alamofire.modulemap */,
-				E6F34CCF86067ED508C12C676E298C69 /* Alamofire.xcconfig */,
-				22C1C119BCE81C53F76CAC2BE27C38E0 /* Alamofire-dummy.m */,
-				BCCA9CA7D9C1A2047BB93336C5708DFD /* Alamofire-prefix.pch */,
-				B44A27EFBB0DA84D738057B77F3413B1 /* Alamofire-umbrella.h */,
-				13A0A663B36A229C69D5274A83E93F88 /* Info.plist */,
+				FD42837709D21E738326E5E04E0C82F8 /* ICSInfiniteScrolling.swift */,
+				C30EF474A6A0FB64220E517979245BCF /* ICSPullToRefresh.h */,
+				794FD8954C75EC7D0D99BF7343D217A6 /* ICSPullToRefresh.swift */,
+				79137F2BCE8343AD1957310922675382 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Alamofire";
+			name = ICSPullToRefresh;
+			path = ICSPullToRefresh;
 			sourceTree = "<group>";
 		};
-		6838FCFF6020DD935AC8845302F24359 /* Products */ = {
+		79137F2BCE8343AD1957310922675382 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8B2321818B53C7F46DA6F9384B4912E7 /* Alamofire.framework */,
-				320FA703377F1B7C5F891C00E3517E25 /* Pods_ZedeskSupportClient.framework */,
-				3597F34167F687225EFFC7C4AAC0B81D /* Pods_ZedeskSupportClientTests.framework */,
-				DAF27E33703F94B3D6FD94F4BDE726B3 /* Pods_ZedeskSupportClientUITests.framework */,
+				98E1CA818B723A66182CD89F89A532F6 /* ICSPullToRefresh.modulemap */,
+				E5668FB5BC24664058DC66E768FE05BB /* ICSPullToRefresh.xcconfig */,
+				FD61DE551D79BB9CC168510A5A485B82 /* ICSPullToRefresh-dummy.m */,
+				B371D41E79FB63D76D64BA1FA1F98618 /* ICSPullToRefresh-prefix.pch */,
+				FD87A550A5B036FDC19129AEB86216E0 /* ICSPullToRefresh-umbrella.h */,
+				CB45BCC40E1F8AFCEF8F975C3FD7D2F8 /* Info.plist */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/ICSPullToRefresh";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -237,8 +245,8 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				35F128EB69B6F7FB7DA93BBF6C130FAE /* Pods */,
-				6838FCFF6020DD935AC8845302F24359 /* Products */,
+				1400461E90CC8DBBC19350A1F5003687 /* Pods */,
+				C459688E70819EF7F47B2FB948796C29 /* Products */,
 				45D773B80708F8A09058323E00BDE6A9 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -259,6 +267,46 @@
 			);
 			name = "Pods-ZedeskSupportClient";
 			path = "Target Support Files/Pods-ZedeskSupportClient";
+			sourceTree = "<group>";
+		};
+		81BD9C9618628ED1B3D96A8F57C6D0BD /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				AF451ED26E6FF6D3FEBE2E4CCAD4E79A /* AFError.swift */,
+				CC7B3AF89094D1D166BCF9C7DC9BDF80 /* Alamofire.swift */,
+				67A1C9204D1A347AD7838BDDC6A518AB /* DispatchQueue+Alamofire.swift */,
+				5174D26D283F15A8C816C8CD03CA4860 /* MultipartFormData.swift */,
+				2A3638E408C6D41AA6598F4AFF40EF1C /* NetworkReachabilityManager.swift */,
+				D2BD5D99EEB0BE121D936B1B0704C2D8 /* Notifications.swift */,
+				EB5B0657C7611AF67E37036541513102 /* ParameterEncoding.swift */,
+				FAC370D5D1AB0C86076EA15A4B7A6EEA /* Request.swift */,
+				6D8CD6133480DF1D7D75559CEE5B03D7 /* Response.swift */,
+				1C585CB56C8E4D9E6246262686925832 /* ResponseSerialization.swift */,
+				1BBF2372BA827AA7D5E3A0C3A07741E2 /* Result.swift */,
+				264B051749231D6B6574D82A4516A8F9 /* ServerTrustPolicy.swift */,
+				DC330E3F07EE043DD81B9667DFBEDCB1 /* SessionDelegate.swift */,
+				183D6F387E5709B0F68E5EB9B766760B /* SessionManager.swift */,
+				20ECEA2F8DFAAF4D9100DE2384241DF6 /* TaskDelegate.swift */,
+				0624457E2270DC27F46E803810CE2522 /* Timeline.swift */,
+				98A38BC1AD4151623F580907631C0BAC /* Validation.swift */,
+				8D38E711A53BE537322EDF20F936598B /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		8D38E711A53BE537322EDF20F936598B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4CE6535B1D760D676A8F139A7C676B7 /* Alamofire.modulemap */,
+				D8D422B3972114F9D4D5ECD22BC3AC2E /* Alamofire.xcconfig */,
+				171D113FA8694B8E579EE717EE29DEA7 /* Alamofire-dummy.m */,
+				2FAB2DC5FA78CA34E012A279602B3E77 /* Alamofire-prefix.pch */,
+				895BE53CB5E1DCE3CCE3119D69783E34 /* Alamofire-umbrella.h */,
+				26F66110A065C35729790571AF86D829 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -287,6 +335,18 @@
 			path = "Target Support Files/Pods-ZedeskSupportClientUITests";
 			sourceTree = "<group>";
 		};
+		C459688E70819EF7F47B2FB948796C29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A3CCBA1BE14FF61F4650BCD9329EF4B /* Alamofire.framework */,
+				D6D326FF460F0BBBF431D0511E34B284 /* ICSPullToRefresh.framework */,
+				741C0BE3C795F8A8A3CCBE7EAB7A999E /* Pods_ZedeskSupportClient.framework */,
+				BE24B900921DB2E612236920DAC43A48 /* Pods_ZedeskSupportClientTests.framework */,
+				F41151D9DB0CF4973B07EEF94769C528 /* Pods_ZedeskSupportClientUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -298,11 +358,12 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		30F11828543619DCADACDDF110E2DF59 /* Headers */ = {
+		867582A423A61BE680968CB6D08AC41B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79779D05A9A46897DDC8255DACB979BE /* Pods-ZedeskSupportClient-umbrella.h in Headers */,
+				B95704573F96131DD550B196A0DF244F /* ICSPullToRefresh-umbrella.h in Headers */,
+				17042A82A6FCF42D09FB114AC94A2117 /* ICSPullToRefresh.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +383,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BEA588605872123FC051CEFE2346100A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA491D7F6889D37AD7A455AE12330A9 /* Pods-ZedeskSupportClient-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EA15F1FB7E2BA2BC10D0F27892BABF2D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -333,6 +402,25 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		519453771C7E0E7BA19698570B031455 /* Pods-ZedeskSupportClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED1C4A002310493C66230599A549C3B /* Build configuration list for PBXNativeTarget "Pods-ZedeskSupportClient" */;
+			buildPhases = (
+				9A371A2BA39F9508F9358213CB2548D3 /* Sources */,
+				6D8133BDE6689D2D05C00D3C8DC0A844 /* Frameworks */,
+				BEA588605872123FC051CEFE2346100A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BA9FFBE574E40FB6B29BBA6CC9B0F84 /* PBXTargetDependency */,
+				10F4EA9ED730448F1EB30ACEDC31BFD1 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZedeskSupportClient";
+			productName = "Pods-ZedeskSupportClient";
+			productReference = 741C0BE3C795F8A8A3CCBE7EAB7A999E /* Pods_ZedeskSupportClient.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		861873753C97A28A4B83C99CE881BCEE /* Pods-ZedeskSupportClientUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16A5A3D9FC63D8C121651C879120DAC2 /* Build configuration list for PBXNativeTarget "Pods-ZedeskSupportClientUITests" */;
@@ -347,7 +435,24 @@
 			);
 			name = "Pods-ZedeskSupportClientUITests";
 			productName = "Pods-ZedeskSupportClientUITests";
-			productReference = DAF27E33703F94B3D6FD94F4BDE726B3 /* Pods_ZedeskSupportClientUITests.framework */;
+			productReference = F41151D9DB0CF4973B07EEF94769C528 /* Pods_ZedeskSupportClientUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88BC1A73F0CA1E9AD85C7646752A7A82 /* ICSPullToRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EA18FB56735C4F9CDCD3195FFE0BA1C /* Build configuration list for PBXNativeTarget "ICSPullToRefresh" */;
+			buildPhases = (
+				81EA491D84FF5EE5BA9465559777D053 /* Sources */,
+				C64242B779D5AE05533C988CC4C923E9 /* Frameworks */,
+				867582A423A61BE680968CB6D08AC41B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ICSPullToRefresh;
+			productName = ICSPullToRefresh;
+			productReference = D6D326FF460F0BBBF431D0511E34B284 /* ICSPullToRefresh.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
@@ -364,25 +469,7 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = 8B2321818B53C7F46DA6F9384B4912E7 /* Alamofire.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E3F12B7821ED4316AD50E022A0C2CE23 /* Pods-ZedeskSupportClient */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5AA6615823300BEFFAC41470D8CF44FD /* Build configuration list for PBXNativeTarget "Pods-ZedeskSupportClient" */;
-			buildPhases = (
-				95F49268A8EE175D2C9865C8828B3467 /* Sources */,
-				03B1C628B40390933F1ACD42A3FA978D /* Frameworks */,
-				30F11828543619DCADACDDF110E2DF59 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				844D0299136FAC04946F3C14CE953BE4 /* PBXTargetDependency */,
-			);
-			name = "Pods-ZedeskSupportClient";
-			productName = "Pods-ZedeskSupportClient";
-			productReference = 320FA703377F1B7C5F891C00E3517E25 /* Pods_ZedeskSupportClient.framework */;
+			productReference = 8A3CCBA1BE14FF61F4650BCD9329EF4B /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E40CBE1199ECA127E666C9AAB82BFB0F /* Pods-ZedeskSupportClientTests */ = {
@@ -399,7 +486,7 @@
 			);
 			name = "Pods-ZedeskSupportClientTests";
 			productName = "Pods-ZedeskSupportClientTests";
-			productReference = 3597F34167F687225EFFC7C4AAC0B81D /* Pods_ZedeskSupportClientTests.framework */;
+			productReference = BE24B900921DB2E612236920DAC43A48 /* Pods_ZedeskSupportClientTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -409,7 +496,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -419,12 +506,13 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 6838FCFF6020DD935AC8845302F24359 /* Products */;
+			productRefGroup = C459688E70819EF7F47B2FB948796C29 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
-				E3F12B7821ED4316AD50E022A0C2CE23 /* Pods-ZedeskSupportClient */,
+				88BC1A73F0CA1E9AD85C7646752A7A82 /* ICSPullToRefresh */,
+				519453771C7E0E7BA19698570B031455 /* Pods-ZedeskSupportClient */,
 				E40CBE1199ECA127E666C9AAB82BFB0F /* Pods-ZedeskSupportClientTests */,
 				861873753C97A28A4B83C99CE881BCEE /* Pods-ZedeskSupportClientUITests */,
 			);
@@ -457,11 +545,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		95F49268A8EE175D2C9865C8828B3467 /* Sources */ = {
+		81EA491D84FF5EE5BA9465559777D053 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E7A7FA5F815CE524714ACCCAD91619D /* Pods-ZedeskSupportClient-dummy.m in Sources */,
+				B5B8345AA9D1929EA049D8CA0115DD3A /* ICSInfiniteScrolling.swift in Sources */,
+				2DF5AFBECF5EF973B4BA5814CAC57D02 /* ICSPullToRefresh-dummy.m in Sources */,
+				368C49FFB87ADF1CA11E9C4A0F5FF53A /* ICSPullToRefresh.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A371A2BA39F9508F9358213CB2548D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF9125EF002BFB7AA9A09533CD3A7D1 /* Pods-ZedeskSupportClient-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,11 +582,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		844D0299136FAC04946F3C14CE953BE4 /* PBXTargetDependency */ = {
+		10F4EA9ED730448F1EB30ACEDC31BFD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ICSPullToRefresh;
+			target = 88BC1A73F0CA1E9AD85C7646752A7A82 /* ICSPullToRefresh */;
+			targetProxy = 9D87AC13345C774303D39DF1D5D743C7 /* PBXContainerItemProxy */;
+		};
+		4BA9FFBE574E40FB6B29BBA6CC9B0F84 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
 			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
-			targetProxy = 906201C14B904239BEB4F2B00C2F5F56 /* PBXContainerItemProxy */;
+			targetProxy = B6EE341E630E2DDA55D8E85018147BDF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -544,7 +648,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -674,7 +777,73 @@
 			};
 			name = Debug;
 		};
-		8ED75483D4BD809EB060FB4BFEAC08D2 /* Debug */ = {
+		791C0E4D3DA20A75E5AE19E555BD48C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5668FB5BC24664058DC66E768FE05BB /* ICSPullToRefresh.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ICSPullToRefresh/ICSPullToRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ICSPullToRefresh/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ICSPullToRefresh/ICSPullToRefresh.modulemap";
+				PRODUCT_NAME = ICSPullToRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C5321AA684FB8D853346546B8D82D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5D69F830220D6AF56D7B1EA01BA5DA1 /* Pods-ZedeskSupportClient.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZedeskSupportClient/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZedeskSupportClient/Pods-ZedeskSupportClient.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZedeskSupportClient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9D7F3FECDFD67B3C92AD533A2097366E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CB0F5FE022251D6C7A048FCB73DA16F4 /* Pods-ZedeskSupportClient.debug.xcconfig */;
 			buildSettings = {
@@ -743,7 +912,7 @@
 		};
 		B0F5F1530D3F4E518BE2B1A52F98487A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6F34CCF86067ED508C12C676E298C69 /* Alamofire.xcconfig */;
+			baseConfigurationReference = D8D422B3972114F9D4D5ECD22BC3AC2E /* Alamofire.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -774,7 +943,7 @@
 		};
 		B8CA02655A4B738D82484691EE8CA58F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6F34CCF86067ED508C12C676E298C69 /* Alamofire.xcconfig */;
+			baseConfigurationReference = D8D422B3972114F9D4D5ECD22BC3AC2E /* Alamofire.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -836,9 +1005,9 @@
 			};
 			name = Debug;
 		};
-		ECB2728185400C4DA69D5DAEC23F147D /* Release */ = {
+		F42F980663B19A43674EC5DBEAC7535A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5D69F830220D6AF56D7B1EA01BA5DA1 /* Pods-ZedeskSupportClient.release.xcconfig */;
+			baseConfigurationReference = E5668FB5BC24664058DC66E768FE05BB /* ICSPullToRefresh.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -849,26 +1018,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZedeskSupportClient/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/ICSPullToRefresh/ICSPullToRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ICSPullToRefresh/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZedeskSupportClient/Pods-ZedeskSupportClient.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ZedeskSupportClient;
+				MODULEMAP_FILE = "Target Support Files/ICSPullToRefresh/ICSPullToRefresh.modulemap";
+				PRODUCT_NAME = ICSPullToRefresh;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -900,11 +1066,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5AA6615823300BEFFAC41470D8CF44FD /* Build configuration list for PBXNativeTarget "Pods-ZedeskSupportClient" */ = {
+		9EA18FB56735C4F9CDCD3195FFE0BA1C /* Build configuration list for PBXNativeTarget "ICSPullToRefresh" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8ED75483D4BD809EB060FB4BFEAC08D2 /* Debug */,
-				ECB2728185400C4DA69D5DAEC23F147D /* Release */,
+				F42F980663B19A43674EC5DBEAC7535A /* Debug */,
+				791C0E4D3DA20A75E5AE19E555BD48C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED1C4A002310493C66230599A549C3B /* Build configuration list for PBXNativeTarget "Pods-ZedeskSupportClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D7F3FECDFD67B3C92AD533A2097366E /* Debug */,
+				7C5321AA684FB8D853346546B8D82D36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

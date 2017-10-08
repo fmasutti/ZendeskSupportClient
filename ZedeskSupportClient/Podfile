@@ -4,7 +4,7 @@ platform :ios, '11.0'
 target 'ZedeskSupportClient' do
   use_frameworks!
   pod 'Alamofire', '~> 4.5'
-
+  pod 'ICSPullToRefresh', '~> 0.6'
 # Pods for ZedeskSupportClient
 
 target 'ZedeskSupportClientTests' do
