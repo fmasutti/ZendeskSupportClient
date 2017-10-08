@@ -42,10 +42,16 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         cell.loadCellContent(ticket: self.ticketsList[indexPath.row])
         return cell
     }
-//
-//    func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
-//        return true
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return UITableViewAutomaticDimension
+    }
+    
+//    override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat{
+//        return UITableViewAutomaticDimension
 //    }
+//
+    
 }
 
 

@@ -20,7 +20,7 @@ class TicketCell: UITableViewCell {
     func loadCellContent(ticket:TicketModel) {
         
         if let number = ticket.id {
-            self.numberLabel.text = "\(number)"
+            self.numberLabel.text = String(format: "%04d", number)
         }
         
         if let status = ticket.status {
